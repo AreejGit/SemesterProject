@@ -29,11 +29,11 @@ export default function Example() {
               }} />
 
             <Text style={styles.title}>
-              Sign in to <Text style={{ color: '#075eec' }}>MyApp</Text>
+              Sign in to <Text style={{ color: '#075eec' }}>Chatter Craft</Text>
             </Text>
 
             <Text style={styles.subtitle}>
-              Get access to your portfolio and more
+            Unlock fluency with our dynamic language learning app
             </Text>
           </View>
 
@@ -58,7 +58,7 @@ export default function Example() {
               <TextInput
                 autoCorrect={false}
                 onChangeText={password => setForm({ ...form, password })}
-                placeholder="****"
+                placeholder="**"
                 placeholderTextColor="#6b7280"
                 style={styles.inputControl}
                 secureTextEntry={true}
@@ -71,7 +71,7 @@ export default function Example() {
                   // handle onPress
                 }}>
                 <View style={styles.btn}>
-                  <Text style={styles.btnText}>Sign in</Text>
+                  <Text style={styles.btnText}>Log in</Text>
                 </View>
               </TouchableOpacity>
             </View>
